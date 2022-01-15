@@ -34,8 +34,9 @@ then
     rm -R Adafruit_Python_PN532
     pip install psutil
     pip install flask==0.12
-    pip install flask-api==0.69
+    pip install flask-api==1.1
     pip install flask-httpauth==3.2.2
+    pip install Adafruit-PureIO
     #copy files
     echo "Installing Script Files...."
     mkdir -p $SCRIPTS/picontrol
