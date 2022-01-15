@@ -26,6 +26,7 @@ then
     git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
     cd Adafruit_Python_GPIO
     sudo python setup.py install
+    cd../
     git clone https://github.com/adafruit/Adafruit_Python_PN532.git
     cd Adafruit_Python_PN532
     python setup.py install
