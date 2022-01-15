@@ -22,6 +22,7 @@ then
     apt-get install python-pip --fix-missing
     sudo apt-get update
     sudo apt-get install build-essential python-smbus
+    sudo apt-get install lightdm
     git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
     cd Adafruit_Python_GPIO
     sudo python setup.py install
