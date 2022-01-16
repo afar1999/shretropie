@@ -23,6 +23,7 @@ then
     sudo apt-get update
     sudo apt-get install build-essential python-smbus
     sudo apt-get install lightdm
+    pip install Adafruit-PureIO
     git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
     cd Adafruit_Python_GPIO
     sudo python setup.py install
@@ -36,7 +37,6 @@ then
     pip install flask==0.12
     pip install flask-api==1.1
     pip install flask-httpauth==3.2.2
-    pip install Adafruit-PureIO
     #copy files
     echo "Installing Script Files...."
     mkdir -p $SCRIPTS/picontrol
